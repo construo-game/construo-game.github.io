@@ -3,7 +3,7 @@
   
   <section title="Introduction">
       Construo is a simple 2D construction programm (it is currently
-      not a real game) for objects which consist of rod's and springs
+      not a real game) for objects which consist of rods and springs
       and let them react on physical forces. You can currently
       construct buildings and objects like bridges, towers,
       spaceshuttles, etc. and you let them fall to ground and the seem
@@ -18,6 +18,22 @@
 	<link ref="http://www.gnu.org/copyright/gpl.html">GNU General
 	Public License</link>, thats means source code is availabel and
 	you are allowed to modify it.
+  </section>
+
+  <section title="ToDo">
+    The 'thing' is currently useable for constructing simple 2D
+    objects, but there is really quite a lot stuff missing. There is
+    currently no way to set different parameters for rods or springs,
+    change their color or thikness. It has only basic load and save
+    support and the requirement for ClanLib and libxml are not really
+    needed. It should probally be based on <a
+    href="http://freeglut.sf.net">freeglut</a> or someother simple
+    OpenGL library. Support for larger models, zooming and scrolling
+    would also be very nice, last not least 3D support would be really
+    nice. Building with prefabs could also be fun. Colliding rods
+    would also be a usefull feature, currently only rod-ground
+    collision is implemented. I currently lack the time to do anything
+    for this project, so help would be very welcome.
   </section>
 
   <section title="Requirements">
