@@ -84,11 +84,10 @@
 
       <downloads>
 	<item file="construo-0.2.0.tar.gz">most current release, see 
-<a href="http://savannah.nongnu.org/cgi-bin/viewcvs/*checkout*/construo/construo/NEWS?rev=HEAD&amp;content-type=text/plain">NEWS</a> for more info</item>
-	<item file="construo-0.1.0.tar.gz"/>
-	<item file="construo-0.0.2.tar.gz"/>
-	<item file="construo-0.0.1.tar.gz"/>
-	<item file="construo-0.0.0.tar.gz"/>
+          <a href="http://savannah.nongnu.org/cgi-bin/viewcvs/*checkout*/construo/construo/NEWS?rev=HEAD&amp;content-type=text/plain">NEWS</a> for more info</item>
+	<item file="construo.pkg/0.1.0/construo-0.1.0.tar.gz"/>
+	<item file="construo.pkg/0.0.2/construo-0.0.2.tar.gz"/>
+	<item file="construo.pkg/0.0.1/construo-0.0.1.tar.gz"/>
       </downloads>
     </subsection>
 
@@ -113,8 +112,8 @@
       Additional constructions, contributed by Construo users:
       
       <downloads>
-	<item file="choh2.tar.bz2">Construo House of Horror 2 - A collection of 9 new torture machines by Mark Michelsen (already included in 0.2.0)</item>
-	<item file="choh.tar.bz2">Construo House of Horror - A collection of 9 torture machines by Mark Michelsen  (already included in 0.2.0)</item>
+	<item file="construo.pkg/0.1.0/choh2.tar.bz2">Construo House of Horror 2 - A collection of 9 new torture machines by Mark Michelsen (already included in 0.2.0)</item>
+	<item file="construo.pkg/0.1.0/choh.tar.bz2">Construo House of Horror - A collection of 9 torture machines by Mark Michelsen  (already included in 0.2.0)</item>
       </downloads>      
     </subsection>
 
