@@ -124,7 +124,7 @@
           </small>
         </td>
 
-        <td align="right">
+        <td align="right" valign="bottom">
           <!-- Begin Nedstat Basic code -->
           <!-- Title: Construo -->
           <!-- URL: http://www.nongnu.org/construo/ -->
