@@ -83,7 +83,7 @@
       has throuble compiling themself.
 
       <downloads>
-	<item file="construo-0.2.0.tar.gz">most current release, see 
+	<item file="construo.pkg/0.2.0/construo-0.2.0.tar.gz">most current release, see 
           <a href="http://savannah.nongnu.org/cgi-bin/viewcvs/*checkout*/construo/construo/NEWS?rev=HEAD&amp;content-type=text/plain">NEWS</a> for more info</item>
 	<item file="construo.pkg/0.1.0/construo-0.1.0.tar.gz"/>
 	<item file="construo.pkg/0.0.2/construo-0.0.2.tar.gz"/>
@@ -104,7 +104,7 @@
       demand for them I could start providing them again.]
 
       <downloads>
-	<item file="construo-0.0.2-binary-i386.tar.gz">outdated binary release, not recomment</item>
+	<item file="construo.pkg/0.0.2/construo-0.0.2-binary-i386.tar.gz">outdated binary release, not recomment</item>
       </downloads>
     </subsection>
 
