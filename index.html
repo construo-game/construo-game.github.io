@@ -16,19 +16,19 @@
   
   <h2>Introduction</h2>
 <p>
-      Construo is a simple 2D construction programm (it is currently
-      not a real game) for objects which consist of rods and springs
-      and let them react on physical forces. You can currently
-      construct buildings and objects like bridges, towers,
-      spaceshuttles, etc. and you let them fall to ground and the seem
-      smash and break. Sound like fun, doesn't it =;-)
+    Construo is a simple 2D construction programm (it is currently
+    not a real game) for objects which consist of rods and springs
+    and let them react on physical forces. You can currently
+    construct buildings and objects like bridges, towers,
+    spaceshuttles, etc. and you let them fall to ground and see seem
+    smash and break. Sound like fun, doesn't it =;-)
     
-      The game is similar to <a href="http://ofs.powertie.org/">Bridge Builder</a> and
-	heavily inspired from the <a href="http://www.gamasutra.com">Gamasutra</a> article <a href="http://www.gamasutra.com/features/20000208/lander_01.htm">Collision
-	Response: Bouncy, Trouncy, Fun</a>. Its covered under the
-	<a href="http://www.gnu.org/copyright/gpl.html">GNU General
-	Public License</a>, thats means source code is availabel and
-	you are allowed to modify it.
+    The game is similar to <a href="http://ofs.powertie.org/">Bridge Builder</a> and
+    heavily inspired from the <a href="http://www.gamasutra.com">Gamasutra</a> article <a href="http://www.gamasutra.com/features/20000208/lander_01.htm">Collision
+      Response: Bouncy, Trouncy, Fun</a>. Its covered under the
+    <a href="http://www.gnu.org/copyright/gpl.html">GNU General
+      Public License</a>, thats means source code is availabel and
+    you are allowed to modify it.
   </p>
 
   <h2>ToDo</h2>
@@ -37,51 +37,76 @@
     objects, but there is really quite a lot stuff missing. There is
     currently no way to set different parameters for rods or springs,
     change their color or thikness. It has only basic load and save
-    support and the requirement for ClanLib and libxml are not really
-    needed. It should probally be based on freeglut or someother simple
-    OpenGL library. Support for larger models, zooming and scrolling
-    would also be very nice, last not least 3D support would be really
-    nice. Building with prefabs could also be fun. Colliding rods
-    would also be a usefull feature, currently only rod-ground
-    collision is implemented. I currently lack the time to do anything
-    for this project, so help would be very welcome.
+    support. Support for larger models, zooming and scrolling would
+    also be very nice, last not least 3D support would be really nice.
+    Building with prefabs could also be fun. Colliding rods would also
+    be a usefull feature, currently only rod-ground collision is
+    implemented. The <tt>TODO</tt> file in the source directory
+    contains a few more infos.
   </p>
 
   <h2>Requirements</h2>
 <p>
-    
-      OS:GNU/Linux (probally also Windows in the future)
-      CPU:something really fast as the game is not at all optimized
-    
+    <dl>
+      <dt>OS:</dt>
+<dd>GNU/Linux or another Unix-like OS</dd>
+      <dt>CPU:</dt>
+<dd>probally something fast, havn't tested it on anything sub-1Ghz</dd>
+      <dt>Libraries:</dt>
+<dd>Only plain Xlib is required, which comes with every distro</dd>
+    </dl>
   </p>
   
   <h2>Screenshots</h2>
 <p>
-      <center>
-	<a href="images/screenshot1.png">
-<img src="images/screenshot1_small.png"/>
+    <center>
+      <a href="images/screenshot6.png">
+<img src="images/screenshot6_small.png"/>
 </a>
-	<a href="images/screenshot2.png">
-<img src="images/screenshot2_small.png"/>
+      <a href="images/screenshot5.png">
+<img src="images/screenshot5_small.png"/>
 </a>
-	<a href="images/screenshot3.png">
+      <a href="images/screenshot4.png">
+<img src="images/screenshot4_small.png"/>
+</a>
+      <br/>
+      <a href="images/screenshot3.png">
 <img src="images/screenshot3_small.png"/>
 </a>
-      </center>
-  </p>
-
-  <h2>Using Construo</h2>
-<p>
-    At the start of the game you can model your object, by pressing
-    'Space' you get into the forces-mode where your model will act on the
-    forces, by press 'd' you get into slow-motion. Support to load and
-    save is done via 's' and 'l', but might be buggy and uses stdin/stdout
-    for reading the filename. The game currently hasn't a goal, but might
-    still be fun.
+      <a href="images/screenshot1.png">
+<img src="images/screenshot1_small.png"/>
+</a>
+      <a href="images/screenshot2.png">
+<img src="images/screenshot2_small.png"/>
+</a>
+    </center>
   </p>
 
   <h2>Download</h2>
 <p>
+    <h3>Source Code</h3>
+<p>
+      The 0.1.0 version only requires Xlib, which comes with every
+      GNU/Linux and should be available an almost all systems, so you
+      shouldn't have problems compiling it. Binary version for 0.1.0
+      might follow at a later point.
+
+      <ul>
+	<li>
+<a href="http://freesoftware.fsf.org/download/construo/construo-0.1.0.tar.gz">construo-0.1.0.tar.gz</a>
+</li>
+	<li>
+<a href="http://freesoftware.fsf.org/download/construo/construo-0.0.2.tar.gz">construo-0.0.2.tar.gz</a>
+</li>
+	<li>
+<a href="http://freesoftware.fsf.org/download/construo/construo-0.0.1.tar.gz">construo-0.0.1.tar.gz</a>
+</li>
+	<li>
+<a href="http://freesoftware.fsf.org/download/construo/construo-0.0.0.tar.gz">construo-0.0.0.tar.gz</a>
+</li>
+      </ul>
+    </p>
+
     <h3>Static Binaries</h3>
 <p>
       These are statically linked binaries, that means they run
@@ -95,25 +120,16 @@
       </ul>
     </p>
 
-
-    <h3>Source Code</h3>
+    <h3>Links</h3>
 <p>
-      To compile it you also need libxml2 and ClanLib, if you don't
-      know what I am talking about, just use the binary, it will save
-      you a lot of throuble.
-
       <ul>
-	<li>
-<a href="http://freesoftware.fsf.org/download/construo/construo-0.0.2.tar.gz">construo-0.0.2.tar.gz</a>
-</li>
-	<li>
-<a href="http://freesoftware.fsf.org/download/construo/construo-0.0.1.tar.gz">construo-0.0.1.tar.gz</a>
-</li>
-	<li>
-<a href="http://freesoftware.fsf.org/download/construo/construo-0.0.0.tar.gz">construo-0.0.0.tar.gz</a>
+        <li>
+<a href="http://www.cs.rutgers.edu/~decarlo/software.html">xspringies
+            - Another piece of GPLed software, pretty similar to this one</a>
 </li>
       </ul>
     </p>
+
   </p>
 
   <hr/>
