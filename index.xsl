@@ -115,7 +115,7 @@
 
   <xsl:template match="copyright">
     <hr/>
-    <table cellpadding="0" border="1" cellspacing="0" width="100%">
+    <table cellpadding="0" cellspacing="0" width="100%">
       <tr>
         <td align="left">
           <small>
@@ -125,7 +125,7 @@
         </td>
 
         <td align="right">
-oeu          <!-- Begin Nedstat Basic code -->
+          <!-- Begin Nedstat Basic code -->
           <!-- Title: Construo -->
           <!-- URL: http://www.nongnu.org/construo/ -->
           <script language="JavaScript" type="text/javascript" src="http://m1.nedstatbasic.net/basic.js">
@@ -141,8 +141,6 @@ oeu          <!-- Begin Nedstat Basic code -->
                 border="0" width="18" height="18"
                 alt="Nedstat Basic - Free web site statistics" /></a>
           </noscript>
-          aeu
-
           <!-- End Nedstat Basic code -->
         </td>
       </tr>
