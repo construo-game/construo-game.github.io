@@ -84,6 +84,11 @@
       </downloads>
     </subsection>
 
+    <subsection title="CVS Access">
+      Information on how to access the Construo CVS tree (aka the
+      working directory of the developers) can be found at the <a href="http://savannah.nongnu.org/cvs/?group=construo">Savanna CVS page</a>.
+    </subsection>
+
     <subsection title="Static Binaries">
       These are statically linked binaries, that means they run
       without any extra requiremed libraries (except X11 and a
