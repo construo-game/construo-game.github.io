@@ -96,8 +96,8 @@
   <xsl:template match="copyright">
     <hr/>
     <small>
-      Copyright (c) 2001 <A HREF="http://pingus.seul.org/~grumbel/">Ingo Ruhnke</A>, <A HREF="mailto:grumbel@pingus.cx?subject=[Pingus]">&lt;grumbel@pingus.cx&gt;</A><BR/>
-	Last update: Sat May 26 15:36:21 2001<br/>
+      Copyright (c) 2001 <A HREF="http://pingus.seul.org/~grumbel/">Ingo Ruhnke</A>, <A HREF="mailto:grumbel@gmx.de?subject=[Pingus]">&lt;grumbel@gmx.de&gt;</A><BR/>
+	Last update: Mon May 13 13:29:08 2002<br/>
     </small>
   </xsl:template>
 

@@ -51,6 +51,15 @@
       </screenshots>
   </section>
 
+  <section title="Using Construo">
+    At the start of the game you can model your object, by pressing
+    'Space' you get into the forces-mode where your model will act on the
+    forces, by press 'd' you get into slow-motion. Support to load and
+    save is done via 's' and 'l', but might be buggy and uses stdin/stdout
+    for reading the filename. The game currently hasn't a goal, but might
+    still be fun.
+  </section>
+
   <section title="Download">
     <subsection title="Static Binaries">
       These are statically linked binaries, that means they run
