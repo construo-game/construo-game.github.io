@@ -94,7 +94,7 @@
         <li><a href="http://freesoftware.fsf.org/download/construo/{@file}">
             <xsl:value-of select="@file"/></a>
           -
-            <xsl:value-of select="."/>
+          <xsl:apply-templates/>
           
         </li>
       </xsl:otherwise>
