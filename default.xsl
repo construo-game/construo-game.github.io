@@ -20,6 +20,7 @@
       <head>
 	<title><xsl:value-of select="@title"/></title>
 	<link rel="stylesheet" href="default.css" type="text/css" />
+        <link rel="icon" href="images/favicon.png" type="image/png" />
       </head>
       <body>
         <h1 align="center"><img src="images/logo.png" alt="Construo"/></h1>
