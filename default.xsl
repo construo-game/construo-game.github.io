@@ -23,6 +23,17 @@
       </head>
       <body>
         <h1 align="center"><img src="images/logo.png" alt="Construo"/></h1>
+        <div align="center">
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_xclick" />
+            <input type="hidden" name="business" value="grumbel@gmx.de" />
+            <input type="hidden" name="item_name" value="Construo donation" />
+            <input type="hidden" name="no_note" value="1" />
+            <input type="hidden" name="currency_code" value="EUR" />
+            <input type="hidden" name="tax" value="0" />
+            <input type="image" src="https://www.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="donate via PayPal" />
+          </form>
+        </div>
 	<table bgcolor="#88bbbb"><tr><td>
               <table bgcolor="#dddddd" cellpadding="20"><tr><td>
                     <xsl:apply-templates/>
