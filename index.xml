@@ -104,8 +104,17 @@
     </subsection>
 
     <subsection title="CVS Access">
-      Information on how to access the Construo CVS tree (aka the
-      working directory of the developers) can be found at the <a href="http://savannah.nongnu.org/cvs/?group=construo">Savanna CVS page</a>.
+      <p>
+        Information on how to access the Construo CVS tree (aka the
+      working directory of the developers) can be found at the <a
+      href="http://savannah.nongnu.org/cvs/?group=construo">Savanna
+      CVS page</a>. GNU/Linux users should be able to simply enter:
+      </p>
+
+      <tt>cvs -d :ext:anoncvs@savannah.nongnu.org:/cvsroot/construo co construo</tt>
+
+      <p>into a terminal and have a working checkout.</p>
+
     </subsection>
 
     <subsection title="Static Binaries">
