@@ -80,7 +80,7 @@
   </xsl:template>
 
   <xsl:template match="item">
-    <li><a href="dist/{.}"><xsl:value-of select="."/></a></li>
+    <li><a href="http://freesoftware.fsf.org/download/construo/{.}"><xsl:value-of select="."/></a></li>
   </xsl:template>
 
   <xsl:template match="screenshots">
