@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page title="Construo">
+  <news>
+    <item date="24. Nov 2002">
+      Construo House of Horrors, a pack of 9 torture constructions by
+      Mark Joakim Bekker Michelsen is available
+    </item>
+
+    <item date="22. Nov 2002">
+      Construo 0.1.0 is out
+    </item>
+  </news>
   
   <section title="Introduction">
     Construo is a simple 2D construction programm (it is currently
@@ -61,10 +71,10 @@
       might follow at a later point.
 
       <downloads>
-	<item>construo-0.1.0.tar.gz</item>
-	<item>construo-0.0.2.tar.gz</item>
-	<item>construo-0.0.1.tar.gz</item>
-	<item>construo-0.0.0.tar.gz</item>
+	<item file="construo-0.1.0.tar.gz">most current release</item>
+	<item file="construo-0.0.2.tar.gz"/>
+	<item file="construo-0.0.1.tar.gz"/>
+	<item file="construo-0.0.0.tar.gz"/>
       </downloads>
     </subsection>
 
@@ -74,8 +84,16 @@
       GNU/Linux box).
 
       <downloads>
-	<item>construo-0.0.2-binary-i386.tar.gz</item>
+	<item file="construo-0.0.2-binary-i386.tar.gz">outdated binary release, not recomment</item>
       </downloads>
+    </subsection>
+
+    <subsection title="Additional Constructions">
+      Additional constructions, contributed by Construo users:
+      
+      <downloads>
+	<item file="choh.tar.bz2">Construo House of Horror - A collection of 9 torture machines by Mark Joakim Bekker Michelsen</item>
+      </downloads>      
     </subsection>
 
     <subsection title="Links">

@@ -3,7 +3,13 @@
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns="http://www.w3.org/TR/xhtml1/strict">
 
-  <xsl:output method="html"/>
+  <xsl:output method="html" indent="yes"/>
+
+  <xsl:template match="node()|@*">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()" />
+    </xsl:copy>
+  </xsl:template>
   
   <xsl:template match="page">
     <html>
@@ -41,7 +47,7 @@
 
   <xsl:template match="news">
     <table width="35%" bgcolor="black" align="right" hspace="10"><tr><td>
-	  <table bgcolor="#b4b4a1">
+	  <table bgcolor="#b4b4a1" width="100%">
 	    <tr><td bgcolor="black" align="center">
 		<font color="#ffffff" size="+2">News</font></td></tr>
 	    <tr><td>
@@ -55,7 +61,7 @@
   </xsl:template>
 
   <xsl:template match="news/item">
-    <dt><xsl:value-of select="@date"/></dt>
+    <dt><strong><xsl:value-of select="@date"/></strong></dt>
     <dd><xsl:apply-templates/></dd>
   </xsl:template>
 
@@ -79,8 +85,20 @@
     </ul>
   </xsl:template>
 
-  <xsl:template match="item">
-    <li><a href="http://freesoftware.fsf.org/download/construo/{.}"><xsl:value-of select="."/></a></li>
+  <xsl:template match="downloads/item">
+    <xsl:choose>
+      <xsl:when test=".=''">
+        <li><a href="http://freesoftware.fsf.org/download/construo/{@file}"><xsl:value-of select="@file"/></a></li>
+      </xsl:when>
+      <xsl:otherwise>
+        <li><a href="http://freesoftware.fsf.org/download/construo/{@file}">
+            <xsl:value-of select="@file"/></a>
+          -
+            <xsl:value-of select="."/>
+          
+        </li>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="screenshots">
