@@ -1,9 +1,13 @@
 <?xml version='1.0'?>
 <xsl:stylesheet version="1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns="http://www.w3.org/TR/xhtml1/strict">
-
-  <xsl:output method="html" indent="yes"/>
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  
+  <xsl:output 
+    method="html" 
+    indent="yes" 
+    doctype-public="-//W3C//DTD HTML 4.01//EN" 
+    doctype-system="http://www.w3.org/TR/html4/strict.dtd"
+    encoding="ISO-8859-1" />
 
   <xsl:template match="node()|@*">
     <xsl:copy>
@@ -14,9 +18,7 @@
   <xsl:template match="page">
     <html>
       <head>
-	<title>
-	  <xsl:value-of select="@title"/>
-	</title>
+	<title><xsl:value-of select="@title"/></title>
 	<link rel="stylesheet" href="default.css" type="text/css" />
       </head>
       <body>
@@ -113,7 +115,7 @@
 
   <xsl:template match="copyright">
     <hr/>
-    <table cellpadding="0" cellspacing="0" width="100%">
+    <table cellpadding="0" border="1" cellspacing="0" width="100%">
       <tr>
         <td align="left">
           <small>
@@ -121,23 +123,26 @@
             Last update: Mon May 13 13:29:08 2002<br/>
           </small>
         </td>
-        <td align="right" valign="bottom">
-          <!-- Begin Nedstat Basic code -->
+
+        <td align="right">
+oeu          <!-- Begin Nedstat Basic code -->
           <!-- Title: Construo -->
           <!-- URL: http://www.nongnu.org/construo/ -->
           <script language="JavaScript" type="text/javascript" src="http://m1.nedstatbasic.net/basic.js">
           </script>
           <script language="JavaScript" type="text/javascript" >
-            <!--
+            <xsl:comment>
             nedstatbasic("ACV1PwjX+S79e4Epog/n15KvtIwA", 0);
-            // -->
+            // </xsl:comment>
           </script>
           <noscript>
-            <a target="_blank" href="http://v1.nedstatbasic.net/stats?ACV1PwjX+S79e4Epog/n15KvtIwA"><img
+            <a href="http://v1.nedstatbasic.net/stats?ACV1PwjX+S79e4Epog/n15KvtIwA"><img
                 src="http://m1.nedstatbasic.net/n?id=ACV1PwjX+S79e4Epog/n15KvtIwA"
                 border="0" width="18" height="18"
                 alt="Nedstat Basic - Free web site statistics" /></a>
           </noscript>
+          aeu
+
           <!-- End Nedstat Basic code -->
         </td>
       </tr>
