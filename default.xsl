@@ -67,18 +67,41 @@
     <dd><xsl:apply-templates/></dd>
   </xsl:template>
 
+  <xsl:template match="section-toc">
+    <dl style="display: block; padding: .3em; float: right; background-color: #eeeeee; border-style: solid; width: auto; margin-left: 2em;">
+      <xsl:for-each select="following-sibling::section">
+        <dt><a href="#{generate-id()}"><xsl:value-of select="@title" /></a></dt>
+        <dd>
+          <dl>
+            <xsl:for-each select="child::subsection">
+              <dt><a href="#{generate-id()}"><xsl:value-of select="@title" /></a></dt>
+              <dd>
+                <dl>
+                  <xsl:for-each select="child::subsubsection">
+                    <dt><a href="#{generate-id()}"><xsl:value-of select="@title" /></a></dt>
+                  </xsl:for-each>
+                </dl>
+              </dd>
+            </xsl:for-each>
+          </dl>
+        </dd>
+      </xsl:for-each>
+    </dl>
+  </xsl:template>
+
   <xsl:template match="section">
-    <h2><xsl:value-of select="@title"/></h2>
-    <p>
-      <xsl:apply-templates/>
-    </p>
+    <h2 id="{generate-id()}"><xsl:value-of select="@title"/></h2>
+    <xsl:apply-templates/>
   </xsl:template>
 
   <xsl:template match="subsection">
-    <h3><xsl:value-of select="@title"/></h3>
-    <p>
-      <xsl:apply-templates/>
-    </p>
+    <h3 id="{generate-id()}"><xsl:value-of select="@title"/></h3>
+    <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="subsubsection">
+    <h4 id="{generate-id()}"><xsl:value-of select="@title"/></h4>
+    <xsl:apply-templates/>
   </xsl:template>
 
   <xsl:template match="downloads">
@@ -132,8 +155,8 @@
           </script>
           <script language="JavaScript" type="text/javascript" >
             <xsl:comment>
-            nedstatbasic("ACV1PwjX+S79e4Epog/n15KvtIwA", 0);
-            // </xsl:comment>
+              nedstatbasic("ACV1PwjX+S79e4Epog/n15KvtIwA", 0);
+              // </xsl:comment>
           </script>
           <noscript>
             <a href="http://v1.nedstatbasic.net/stats?ACV1PwjX+S79e4Epog/n15KvtIwA"><img
