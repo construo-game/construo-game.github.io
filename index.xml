@@ -125,7 +125,7 @@
       demand for them I could start providing them again.]
 
       <downloads>
-	<item file="construo.pkg/0.0.2/construo-0.0.2-binary-i386.tar.gz">outdated binary release, not recomment</item>
+	<item file="construo-0.0.2-binary-i386.tar.gz">outdated binary release, not recomment</item>
       </downloads>
     </subsection>
 
@@ -133,8 +133,8 @@
       Additional constructions, contributed by Construo users:
       
       <downloads>
-	<item file="construo.pkg/0.1.0/choh2.tar.bz2">Construo House of Horror 2 - A collection of 9 new torture machines by Mark Michelsen (already included in 0.2.0)</item>
-	<item file="construo.pkg/0.1.0/choh.tar.bz2">Construo House of Horror - A collection of 9 torture machines by Mark Michelsen  (already included in 0.2.0)</item>
+	<item file="choh2.tar.bz2">Construo House of Horror 2 - A collection of 9 new torture machines by Mark Michelsen (already included in 0.2.0)</item>
+	<item file="choh.tar.bz2">Construo House of Horror - A collection of 9 torture machines by Mark Michelsen  (already included in 0.2.0)</item>
       </downloads>      
     </subsection>
 

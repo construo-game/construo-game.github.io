@@ -125,10 +125,10 @@
   <xsl:template match="downloads/item">
     <xsl:choose>
       <xsl:when test=".=''">
-        <li><a href="http://freesoftware.fsf.org/download/construo/{@file}"><xsl:value-of select="@file"/></a></li>
+        <li><a href="http://savannah.nongnu.org/download/construo/{@file}"><xsl:value-of select="@file"/></a></li>
       </xsl:when>
       <xsl:otherwise>
-        <li><a href="http://freesoftware.fsf.org/download/construo/{@file}">
+        <li><a href="http://savannah.nongnu.org/download/construo/{@file}">
             <xsl:value-of select="@file"/></a>
           -
           <xsl:apply-templates/>
