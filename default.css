@@ -1,0 +1,78 @@
+BODY { 
+	color: black;
+	background: rgb(0,0,0);
+	margin: 20px 50px 50px 50px;
+/*	text-align: justify; */
+}
+
+DIV.menu {
+	font-size: 0.8em;
+	font-family: sans-serif;
+	text-align: center;
+	background:	rgb(220,220,220); 
+	border:	        solid thin;
+	padding:	0.2em;
+	text:           width;
+	margin: 0px 0px 0px 0px;
+}
+
+P {
+	margin: 0px 0px 20px 20px;
+}
+
+H1,H2,H3,H4,H5,H6 {
+	font-family: "helvetica", sans-serif;
+}
+
+DIV.answer { color: darkblue }
+
+DIV.question {
+	color: darkgreen;
+}
+
+DL.news {
+		font-sive:      0.5em;
+}
+
+TD.news {
+	color:		black;
+	background:	lightgrey;
+	font-sive:      0.5em;
+}
+
+TH.news {
+	font-family:	sans-serif;
+	text-align:	center;
+	color:		white;
+	background:	darkgrey;
+	font-sive:      0.5em;
+}
+
+DIV.shell {
+	border:		solid thin;
+	font-size:	1.0em;
+	font-family:	monospace;
+	padding:	0.3em;
+	background:	rgb(220,220,220); 
+}
+
+UL.sitebar {
+	font-family: "helvetica", sans-serif;
+	font-size:	1.2em;
+}
+
+TT.command {
+	color: green;
+}
+
+TT.key {
+	color: blue;
+}
+
+TT.file {
+	color: red;
+}
+
+SMALL.grey {
+	color:          rgb(150,150,150);
+}

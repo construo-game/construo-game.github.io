@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page title="Construo">
+  
+  <section title="Introduction">
+      Construo is a simple 2D construction programm (it is currently
+      not a real game) for objects which consist of rod's and springs
+      and let them react on physical forces. You can currently
+      construct buildings and objects like bridges, towers,
+      spaceshuttles, etc. and you let them fall to ground and the seem
+      smash and break. Sound like fun, doesn't it =;-)
+    
+      The game is similar to <link
+	ref="http://ofs.powertie.org/">Bridge Builder</link> and
+	heavily inspired from the <link
+	ref="http://www.gamasutra.com">Gamasutra</link> article <link
+	ref="http://www.gamasutra.com/features/20000208/lander_01.htm">Collision
+	Response: Bouncy, Trouncy, Fun</link>. Its covered under the
+	<link ref="http://www.gnu.org/copyright/gpl.html">GNU General
+	Public License</link>, thats means source code is availabel and
+	you are allowed to modify it.
+  </section>
+
+  <section title="Requirements">
+    <dl>
+      <dt>OS:</dt><dd>GNU/Linux (probally also Windows in the future)</dd>
+      <dt>CPU:</dt><dd>something really fast as the game is not at all optimized</dd>
+    </dl>
+  </section>
+  
+  <section title="Screenshots">
+      <screenshots>
+	<item>screenshot1</item>
+	<item>screenshot2</item>
+	<item>screenshot3</item>
+      </screenshots>
+  </section>
+
+  <section title="Download">
+    <subsection title="Static Binaries">
+      These are statically linked binaries, that means they run
+      without any extra requiremed libraries (except X11 and a
+      GNU/Linux box).
+
+      <downloads>
+	<item>construo-0.0.2-binary-i386.tar.gz</item>
+      </downloads>
+    </subsection>
+
+
+    <subsection title="Source Code">
+      To compile it you also need libxml2 and ClanLib, if you don't
+      know what I am talking about, just use the binary, it will save
+      you a lot of throuble.
+
+      <downloads>
+	<item>construo-0.0.2.tar.gz</item>
+	<item>construo-0.0.1.tar.gz</item>
+	<item>construo-0.0.0.tar.gz</item>
+      </downloads>
+    </subsection>
+  </section>
+
+  <copyright/>
+</page>
