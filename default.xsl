@@ -23,8 +23,14 @@
         <link rel="icon" href="images/favicon.png" type="image/png" />
       </head>
       <body>
-        <h1 align="center"><img src="images/logo.png" alt="Construo"/></h1>
-        <div align="center">
+        <div style="float: left;">
+          <script type="text/javascript">
+	    var flattr_url = 'http://www.nongnu.org/construo/';
+</script>
+          <script src="http://api.flattr.com/button/load.js" type="text/javascript"></script>
+        </div>
+
+        <div style="float: right;">
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_xclick" />
             <input type="hidden" name="business" value="grumbel@gmx.de" />
@@ -32,9 +38,12 @@
             <input type="hidden" name="no_note" value="1" />
             <input type="hidden" name="currency_code" value="EUR" />
             <input type="hidden" name="tax" value="0" />
-            <input type="image" src="https://www.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="donate via PayPal" />
+            <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="donate via PayPal" />
           </form>
         </div>
+
+        <h1 align="center"><img src="images/logo.png" alt="Construo"/></h1>
+
 	<table bgcolor="#88bbbb"><tr><td>
               <table bgcolor="#dddddd" cellpadding="20"><tr><td>
                     <xsl:apply-templates/>
@@ -150,36 +159,11 @@
 
   <xsl:template match="copyright">
     <hr/>
-    <table cellpadding="0" cellspacing="0" width="100%">
-      <tr>
-        <td align="left">
-          <small>
-            Copyright (c) 2001 <A HREF="http://pingus.seul.org/~grumbel/">Ingo Ruhnke</A>, <A HREF="mailto:grumbel@gmx.de?subject=[Construo]">&lt;grumbel@gmx.de&gt;</A><BR/>
-            Last update: Mon May 13 13:29:08 2002<br/>
-          </small>
-        </td>
+    <small>
+      Copyright (c) 2001 <A HREF="http://pingus.seul.org/~grumbel/">Ingo Ruhnke</A>, <A HREF="mailto:grumbel@gmx.de?subject=[Construo]">&lt;grumbel@gmx.de&gt;</A><BR/>
+      Last update: Mon May 13 13:29:08 2002<br/>
+    </small>
 
-        <td align="right" valign="bottom">
-          <!-- Begin Nedstat Basic code -->
-          <!-- Title: Construo -->
-          <!-- URL: http://www.nongnu.org/construo/ -->
-          <script language="JavaScript" type="text/javascript" src="http://m1.nedstatbasic.net/basic.js">
-          </script>
-          <script language="JavaScript" type="text/javascript" >
-            <xsl:comment>
-              nedstatbasic("ACV1PwjX+S79e4Epog/n15KvtIwA", 0);
-              // </xsl:comment>
-          </script>
-          <noscript>
-            <a href="http://v1.nedstatbasic.net/stats?ACV1PwjX+S79e4Epog/n15KvtIwA"><img
-                src="http://m1.nedstatbasic.net/n?id=ACV1PwjX+S79e4Epog/n15KvtIwA"
-                border="0" width="18" height="18"
-                alt="Nedstat Basic - Free web site statistics" /></a>
-          </noscript>
-          <!-- End Nedstat Basic code -->
-        </td>
-      </tr>
-    </table>
   </xsl:template>
 
 </xsl:stylesheet>
