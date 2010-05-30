@@ -1,13 +1,13 @@
 <?xml version='1.0'?>
 <xsl:stylesheet version="1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   
   <xsl:output 
-    method="html" 
-    indent="yes" 
-    doctype-public="-//W3C//DTD HTML 4.01//EN" 
-    doctype-system="http://www.w3.org/TR/html4/strict.dtd"
-    encoding="ISO-8859-1" />
+     method="html" 
+     indent="yes" 
+     doctype-public="-//W3C//DTD HTML 4.01//EN" 
+     doctype-system="http://www.w3.org/TR/html4/strict.dtd"
+     encoding="ISO-8859-1" />
 
   <xsl:template match="node()|@*">
     <xsl:copy>
@@ -26,7 +26,7 @@
         <div style="float: left;">
           <script type="text/javascript">
 	    var flattr_url = 'http://www.nongnu.org/construo/';
-</script>
+          </script>
           <script src="http://api.flattr.com/button/load.js" type="text/javascript"></script>
         </div>
 
@@ -43,12 +43,9 @@
         </div>
 
         <h1 align="center"><img src="images/logo.png" alt="Construo"/></h1>
-
-	<table bgcolor="#88bbbb"><tr><td>
-              <table bgcolor="#dddddd" cellpadding="20"><tr><td>
-                    <xsl:apply-templates/>
-                  </td></tr></table>
-	    </td></tr></table>
+        <div id="body">
+          <xsl:apply-templates/>
+        </div>
       </body>
     </html>
   </xsl:template>
@@ -69,18 +66,7 @@
   </xsl:template>
 
   <xsl:template match="news">
-    <table width="35%" bgcolor="black" align="right" hspace="10"><tr><td>
-	  <table bgcolor="#b4b4a1" width="100%">
-	    <tr><td bgcolor="black" align="center">
-		<font color="#ffffff" size="+2">News</font></td></tr>
-	    <tr><td>
-		<dl>
-		  <xsl:apply-templates/>
-		</dl>
-	      </td></tr>
-	  </table>
-	</td></tr></table>
-    
+    <xsl:apply-templates/>
   </xsl:template>
 
   <xsl:template match="news/item">
@@ -111,8 +97,12 @@
   </xsl:template>
 
   <xsl:template match="section">
-    <h2 id="{generate-id()}"><xsl:value-of select="@title"/></h2>
-    <xsl:apply-templates/>
+    <div class="section">
+      <h2 id="{generate-id()}"><xsl:value-of select="@title"/></h2>
+      <div class="sectionbody">
+        <xsl:apply-templates/>
+      </div>
+    </div>
   </xsl:template>
 
   <xsl:template match="subsection">
@@ -158,11 +148,10 @@
   </xsl:template>
 
   <xsl:template match="copyright">
-    <hr/>
-    <small>
-      Copyright (c) 2001 <A HREF="http://pingus.seul.org/~grumbel/">Ingo Ruhnke</A>, <A HREF="mailto:grumbel@gmx.de?subject=[Construo]">&lt;grumbel@gmx.de&gt;</A><BR/>
-      Last update: Mon May 13 13:29:08 2002<br/>
-    </small>
+    <div id="footer">
+      Copyright (c) 2001 <A HREF="http://pingus.seul.org/~grumbel/">Ingo Ruhnke</A> <A HREF="mailto:grumbel@gmx.de?subject=[Construo]">&lt;grumbel@gmx.de&gt;</A><BR/>
+      Last update: 2010-05-30
+    </div>
 
   </xsl:template>
 

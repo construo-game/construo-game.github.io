@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page title="Construo - A 2D Construction Toy">
-  <news>
-    <item date="29. Jul 2003">
-      Construo 0.2.2 is out, fixes the speed problems in de X11
-      target, should result in around 4 times smoother graphics
-    </item>
+  <section title="News">
+    <news>
+      <item date="30. May 2010">
+        Small webpage cleanup and layout update
+      </item>
 
-    <item date="26. Jul 2003">
-      Construo 0.2.1 is out, some new features and lots of bugfixes. A
-      (incomplete) <a href="tutorial.html">tutorial</a> is also
-      available.
-    </item>
+      <item date="29. Jul 2003">
+        Construo 0.2.2 is out, fixes the speed problems in de X11
+        target, should result in around 4 times smoother graphics
+      </item>
 
-    <item date="11. Jan 2003">
-      Construo 0.2.0 is out, new features, new bugs
-    </item>
+      <item date="26. Jul 2003">
+        Construo 0.2.1 is out, some new features and lots of bugfixes. A
+        (incomplete) <a href="tutorial.html">tutorial</a> is also
+        available.
+      </item>
 
-    <item date="02. Dez 2002">
-      Construo House of Horrors - Part 2 released, a pack of 9
-      new torture constructions by Mark Michelsen is
-      available
-    </item>
+      <item date="11. Jan 2003">
+        Construo 0.2.0 is out, new features, new bugs
+      </item>
 
-    <item date="24. Nov 2002">
-      Construo House of Horrors, a pack of 9 torture constructions by
-      Mark Michelsen is available
-    </item>
+      <item date="02. Dez 2002">
+        Construo House of Horrors - Part 2 released, a pack of 9
+        new torture constructions by Mark Michelsen is
+        available
+      </item>
 
-    <item date="22. Nov 2002">
-      Construo 0.1.0 is out
-    </item>
-  </news>
-  
+      <item date="24. Nov 2002">
+        Construo House of Horrors, a pack of 9 torture constructions by
+        Mark Michelsen is available
+      </item>
+
+      <item date="22. Nov 2002">
+        Construo 0.1.0 is out
+      </item>
+    </news> 
+  </section>
+
   <section title="Introduction">
     Construo is a simple 2D construction programm (it is currently
     not a real game) for objects which consist of rods and springs
@@ -41,12 +47,12 @@
     smash and break. Sound like fun, doesn't it =;-)
     
     The game is similar to <link
-      ref="http://ofs.powertie.org/">Bridge Builder</link> and
+                              ref="http://www.bridgebuilder-game.com/bbg-info.php">Bridge Builder</link> and
     heavily inspired from the <link
-      ref="http://www.gamasutra.com">Gamasutra</link> article <link
-      ref="http://www.gamasutra.com/features/20000208/lander_01.htm">Collision
+                                 ref="http://www.gamasutra.com">Gamasutra</link> article <link
+                                                                                            ref="http://www.gamasutra.com/features/20000208/lander_01.htm">Collision
       Response: Bouncy, Trouncy, Fun</link>. Its covered under the
-    <link ref="http://www.gnu.org/copyright/gpl.html">GNU General
+    <link ref="http://www.gnu.org/licenses/gpl.html">GNU General
       Public License</link>, thats means source code is availabel and
     you are allowed to modify it.
   </section>
@@ -131,7 +137,7 @@
     <subsection title="Links">
       <ul>
         <li><a
-            href="http://www.cs.rutgers.edu/~decarlo/software.html">xspringies
+               href="http://www.cs.rutgers.edu/~decarlo/software.html">xspringies
             - Another piece of GPLed software, pretty similar to this one</a></li>
         <li>
           <a href="https://savannah.nongnu.org/projects/construo/">Savannah Project Page</a>
