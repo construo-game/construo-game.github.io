@@ -18,6 +18,23 @@ BODY {
   border-width: 2px;
 }
 
+#nav { 
+  margin-left: auto;
+  margin-right: auto;
+  width: 60em;
+  text-align: center;
+  font-size: smaller;
+}
+
+#nav a { 
+  display: inline-block;
+  padding: 0.25em 1em;
+  margin: 0em 1em;
+  border-style: solid solid none solid;
+  border-width: thin;
+  border-color: #0aa;
+}
+
 div.section { 
   display: block;
   /*background-color: #0aa;*/

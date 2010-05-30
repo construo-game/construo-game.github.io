@@ -43,6 +43,10 @@
         </div>
 
         <h1 align="center"><img src="images/logo.png" alt="Construo"/></h1>
+        <div id="nav">
+          <a href="index.html">Construo</a>
+          <a href="tutorial.html">Tutorial</a>
+        </div>
         <div id="body">
           <xsl:apply-templates/>
         </div>
@@ -75,7 +79,7 @@
   </xsl:template>
 
   <xsl:template match="section-toc">
-    <dl style="display: block; padding: .3em; float: right; background-color: #eeeeee; border-style: solid; width: auto; margin-left: 2em;">
+    <dl style="toc">
       <xsl:for-each select="following-sibling::section">
         <dt><a href="#{generate-id()}"><xsl:value-of select="@title" /></a></dt>
         <dd>
