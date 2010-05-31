@@ -26,6 +26,14 @@ BODY {
   font-size: smaller;
 }
 
+#nav>ul {
+  display: inline;
+}
+
+#nav>ul>li {
+  display: inline;
+}
+
 #nav a { 
   display: inline-block;
   padding: 0.25em 1em;

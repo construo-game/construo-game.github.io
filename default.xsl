@@ -44,8 +44,10 @@
 
         <h1 align="center"><img src="images/logo.png" alt="Construo"/></h1>
         <div id="nav">
-          <a href="index.html">Construo</a>
-          <a href="tutorial.html">Tutorial</a>
+          <ul>
+            <li><a href="index.html">Construo</a></li>
+            <li><a href="tutorial.html">Tutorial</a></li>
+          </ul>
         </div>
         <div id="body">
           <xsl:apply-templates/>
