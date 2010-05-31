@@ -71,7 +71,7 @@ div.sectionbody {
   border-color: cyan;
   border-top-style: solid;
   border-top-width: thin;
-  padding: 1em 2em;
+  padding: 0em 2em;
 }
 
 a { 
