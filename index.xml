@@ -39,32 +39,37 @@
   </section>
 
   <section title="Introduction">
-    Construo is a simple 2D construction programm (it is currently
-    not a real game) for objects which consist of rods and springs
-    and let them react on physical forces. You can currently
-    construct buildings and objects like bridges, towers,
-    spaceshuttles, etc. and you let them fall to ground and see seem
-    smash and break. Sound like fun, doesn't it =;-)
+    <p>Construo is a simple 2D construction programm (it is currently
+      not a real game) for objects which consist of rods and springs
+      and let them react on physical forces. You can currently
+      construct buildings and objects like bridges, towers,
+      spaceshuttles, etc. and you let them fall to ground and see seem
+      smash and break. Sound like fun, doesn't it =;-)</p>
     
-    The game is similar to <link
-                              ref="http://www.bridgebuilder-game.com/bbg-info.php">Bridge Builder</link> and
-    heavily inspired from the <link
-                                 ref="http://www.gamasutra.com">Gamasutra</link> article <link
-                                                                                            ref="http://www.gamasutra.com/features/20000208/lander_01.htm">Collision
-      Response: Bouncy, Trouncy, Fun</link>. Its covered under the
-    <link ref="http://www.gnu.org/licenses/gpl.html">GNU General
-      Public License</link>, thats means source code is availabel and
-    you are allowed to modify it.
+    <p>The game is similar to <link
+                                 ref="http://www.bridgebuilder-game.com/bbg-info.php">Bridge Builder</link> and
+      heavily inspired from the <link
+                                   ref="http://www.gamasutra.com">Gamasutra</link> article <link
+                                                                                              ref="http://www.gamasutra.com/features/20000208/lander_01.htm">Collision
+        Response: Bouncy, Trouncy, Fun</link>. Its covered under the
+      <link ref="http://www.gnu.org/licenses/gpl.html">GNU General
+        Public License</link>, thats means source code is availabel
+        and you are allowed to modify it.
+    </p>
   </section>
 
   <section title="ToDo">
-    The 'thing' is currently useable for constructing simple 2D
-    objects, but there is really quite a lot stuff missing. There is
-    currently no way to set different parameters for rods or springs,
-    change their color or thikness. Building with prefabs could also
-    be fun. Colliding rods would also be a usefull feature, currently
-    only rod-ground collision is implemented. See the file <tt><a href="http://savannah.nongnu.org/cgi-bin/viewcvs/*checkout*/construo/construo/TODO?rev=HEAD&amp;content-type=text/plain">TODO</a></tt> 
-    in the source directory contains a few more infos.
+    <p>
+      The 'thing' is currently useable for constructing simple 2D
+      objects, but there is really quite a lot stuff missing. There is
+      currently no way to set different parameters for rods or
+      springs, change their color or thikness. Building with prefabs
+      could also be fun. Colliding rods would also be a usefull
+      feature, currently only rod-ground collision is implemented. See
+      the
+      file <tt><a href="http://savannah.nongnu.org/cgi-bin/viewcvs/*checkout*/construo/construo/TODO?rev=HEAD&amp;content-type=text/plain">TODO</a></tt>
+      in the source directory contains a few more infos.
+    </p>
   </section>
 
   <section title="Requirements">
@@ -91,12 +96,13 @@
 
   <section title="Download">
     <subsection title="Source Code">
-      The versions up from 0.1.0 only require Xlib or Glut, which
-      comes with every GNU/Linux and should be available an almost all
-      systems, so you shouldn't have problems compiling it. Binary
-      version for 0.2.0 arn't planed, but can be provided if anybody
-      has throuble compiling themself.
-
+      <p>
+        The versions up from 0.1.0 only require Xlib or Glut, which
+        comes with every GNU/Linux and should be available an almost all
+        systems, so you shouldn't have problems compiling it. Binary
+        version for 0.2.0 arn't planed, but can be provided if anybody
+        has throuble compiling themself.
+      </p>
       <downloads>
         <item file="construo-0.2.2.tar.gz">most current release, see  <a href="http://savannah.nongnu.org/cgi-bin/viewcvs/*checkout*/construo/construo/NEWS?rev=release_0_2_2&amp;content-type=text/plain">NEWS</a> for more info</item>
 	<item file="construo-0.2.1.tar.gz"/>
@@ -112,11 +118,13 @@
     </subsection>
 
     <subsection title="Static Binaries">
-      These are statically linked binaries, that means they run
-      without any extra requiremed libraries (except X11 and a
-      GNU/Linux box). [Note: static binaries are no longer provided,
-      since compilation should be relativly easy, if there is any
-      demand for them I could start providing them again.]
+      <p>
+        These are statically linked binaries, that means they run
+        without any extra requiremed libraries (except X11 and a
+        GNU/Linux box). [Note: static binaries are no longer provided,
+        since compilation should be relativly easy, if there is any
+        demand for them I could start providing them again.]
+      </p>
 
       <downloads>
 	<item file="construo-0.0.2-binary-i386.tar.gz">outdated binary release, not recomment</item>
@@ -124,7 +132,7 @@
     </subsection>
 
     <subsection title="Additional Constructions">
-      Additional constructions, contributed by Construo users:
+      <p>Additional constructions, contributed by Construo users:</p>
       
       <downloads>
 	<item file="choh2.tar.bz2">Construo House of Horror 2 - A collection of 9 new torture machines by Mark Michelsen (already included in 0.2.0)</item>

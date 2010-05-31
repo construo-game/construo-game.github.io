@@ -144,13 +144,15 @@
   </xsl:template>
 
   <xsl:template match="screenshots">
-    <center>
-      <xsl:apply-templates/>
-    </center>
+    <div class="screenshots">
+      <ul>
+        <xsl:apply-templates/>
+      </ul>
+    </div>
   </xsl:template>
   
   <xsl:template match="screenshots/item">
-    <a href="images/{.}.png"><img src="images/{.}_small.png"/></a>
+    <li><a href="images/{.}.png"><img src="images/{.}_small.png"/></a></li>
   </xsl:template>
 
   <xsl:template match="copyright">
