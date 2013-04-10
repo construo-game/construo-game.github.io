@@ -3,11 +3,11 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   
   <xsl:output 
-     method="html" 
      indent="yes" 
-     doctype-public="-//W3C//DTD HTML 4.01//EN" 
-     doctype-system="http://www.w3.org/TR/html4/strict.dtd"
-     encoding="ISO-8859-1" />
+     method="html" 
+     doctype-public="XSLT-compat"
+     encoding="UTF-8"
+     />
 
   <xsl:template match="node()|@*">
     <xsl:copy>
@@ -159,7 +159,7 @@
     <div id="footer">
       <p>
         Copyright (c) 2001 <A HREF="http://pingus.seul.org/~grumbel/">Ingo Ruhnke</A> <A HREF="mailto:grumbel@gmx.de?subject=[Construo]">&lt;grumbel@gmx.de&gt;</A><BR/>
-        Last update: 2010-05-30
+        Last update: 2013-04-10
       </p>
     </div>
 

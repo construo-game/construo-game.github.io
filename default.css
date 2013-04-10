@@ -84,6 +84,7 @@ a:hover {
 /*  text-decoration: underline;*/
   background-color: #0aa;
   color: white;
+  text-shadow: #000 0px 2px 0px;
 }
 
 a:visited { 
