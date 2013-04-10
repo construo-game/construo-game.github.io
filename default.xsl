@@ -159,7 +159,7 @@
     <div id="footer">
       <p>
         Copyright (c) 2001 <A HREF="http://pingus.seul.org/~grumbel/">Ingo Ruhnke</A> <A HREF="mailto:grumbel@gmx.de?subject=[Construo]">&lt;grumbel@gmx.de&gt;</A><BR/>
-        Last update: 2013-04-10
+        Last update: 2010-05-30
       </p>
     </div>
 

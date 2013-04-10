@@ -2,6 +2,10 @@
 <page title="Construo - A 2D Construction Toy">
   <section title="News">
     <news>
+      <item date="10. Apr 2013">
+        0.2.3 release, nothing special, just small compile fix for moden distributions
+      </item>
+
       <item date="30. May 2010">
         Small webpage layout update
       </item>
@@ -100,11 +104,12 @@
         The versions up from 0.1.0 only require Xlib or Glut, which
         comes with every GNU/Linux and should be available an almost all
         systems, so you shouldn't have problems compiling it. Binary
-        version for 0.2.0 arn't planed, but can be provided if anybody
+        version for 0.2.0 aren't planed, but can be provided if anybody
         has throuble compiling themself.
       </p>
       <downloads>
-        <item file="construo-0.2.2.tar.gz">most current release, see  <a href="http://savannah.nongnu.org/cgi-bin/viewcvs/*checkout*/construo/construo/NEWS?rev=release_0_2_2&amp;content-type=text/plain">NEWS</a> for more info</item>
+        <item file="construo-0.2.3.tar.gz"/>
+        <item file="construo-0.2.2.tar.gz"/>
 	<item file="construo-0.2.1.tar.gz"/>
 	<item file="construo-0.2.0.tar.gz"/>
 	<item file="construo-0.1.0.tar.gz"/>
@@ -113,31 +118,15 @@
       </downloads>
     </subsection>
 
+    <subsection title="Binaries">
+      <p>Binaries packages for Ubuntu are available at:</p>
+      <ul>
+        <li><a href="https://launchpad.net/~grumbel/+archive/ppa/">https://launchpad.net/~grumbel/+archive/ppa/</a></li>
+      </ul>
+    </subsection>
+
     <subsection title="SVN Access">
       <tt>svn checkout http://svn.berlios.de/svnroot/repos/construo/trunk</tt>
-    </subsection>
-
-    <subsection title="Static Binaries">
-      <p>
-        These are statically linked binaries, that means they run
-        without any extra requiremed libraries (except X11 and a
-        GNU/Linux box). [Note: static binaries are no longer provided,
-        since compilation should be relativly easy, if there is any
-        demand for them I could start providing them again.]
-      </p>
-
-      <downloads>
-	<item file="construo-0.0.2-binary-i386.tar.gz">outdated binary release, not recomment</item>
-      </downloads>
-    </subsection>
-
-    <subsection title="Additional Constructions">
-      <p>Additional constructions, contributed by Construo users:</p>
-      
-      <downloads>
-	<item file="choh2.tar.bz2">Construo House of Horror 2 - A collection of 9 new torture machines by Mark Michelsen (already included in 0.2.0)</item>
-	<item file="choh.tar.bz2">Construo House of Horror - A collection of 9 torture machines by Mark Michelsen  (already included in 0.2.0)</item>
-      </downloads>      
     </subsection>
 
     <subsection title="Links">
