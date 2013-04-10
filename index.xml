@@ -118,13 +118,6 @@
       </downloads>
     </subsection>
 
-    <subsection title="Binaries">
-      <p>Binaries packages for Ubuntu are available at:</p>
-      <ul>
-        <li><a href="https://launchpad.net/~grumbel/+archive/ppa/">https://launchpad.net/~grumbel/+archive/ppa/</a></li>
-      </ul>
-    </subsection>
-
     <subsection title="SVN Access">
       <tt>svn checkout http://svn.berlios.de/svnroot/repos/construo/trunk</tt>
     </subsection>
