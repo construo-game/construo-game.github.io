@@ -23,25 +23,6 @@
         <link rel="icon" href="images/favicon.png" type="image/png" />
       </head>
       <body>
-        <div style="float: left;">
-          <script type="text/javascript">
-	    var flattr_url = 'http://www.nongnu.org/construo/';
-          </script>
-          <script src="http://api.flattr.com/button/load.js" type="text/javascript"></script>
-        </div>
-
-        <div style="float: right;">
-          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_xclick" />
-            <input type="hidden" name="business" value="grumbel@gmx.de" />
-            <input type="hidden" name="item_name" value="Construo donation" />
-            <input type="hidden" name="no_note" value="1" />
-            <input type="hidden" name="currency_code" value="EUR" />
-            <input type="hidden" name="tax" value="0" />
-            <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="donate via PayPal" />
-          </form>
-        </div>
-
         <h1 align="center"><img src="images/logo.png" alt="Construo"/></h1>
         <div id="nav">
           <ul>
