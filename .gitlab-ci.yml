@@ -1,8 +1,9 @@
 pages:
   stage: deploy
   script:
+  - apt-get update -qq && apt-get install -y -qq xalan
   - make
-  - mv build/ public
+  - mv build public
   artifacts:
     paths:
     - public
