@@ -1,12 +1,10 @@
-all : index.html tutorial.html
+all : ../Construo.github.io/index.html ../Construo.github.io/tutorial.html
 
 %.html : %.xml default.xsl
 	xalan -in $< -xsl default.xsl -out $@
 
-#upload: index.html
-#	rsync -Pvr . grumbel@pingus.seul.org:/home/grumbel/public_html/construo/
-
-commit: all
-	cvs commit -m "automatic commit"
+upload:
+	cd ../Construo.github.io/ && \
+	git commit -m "Upload $(date -I)"
 
 # EOF #
