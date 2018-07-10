@@ -1,20 +1,20 @@
 <?xml version='1.0'?>
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  
-  <xsl:output 
-     indent="yes" 
-     method="html" 
-     doctype-public="XSLT-compat"
-     encoding="UTF-8"
-     />
+
+  <xsl:output
+      indent="yes"
+      method="html"
+      doctype-public="XSLT-compat"
+      encoding="UTF-8"
+      />
 
   <xsl:template match="node()|@*">
     <xsl:copy>
       <xsl:apply-templates select="@* | node()" />
     </xsl:copy>
   </xsl:template>
-  
+
   <xsl:template match="page">
     <html>
       <head>
@@ -104,7 +104,7 @@
 
   <xsl:template match="downloads">
     <ul>
-      <xsl:apply-templates/>      
+      <xsl:apply-templates/>
     </ul>
   </xsl:template>
 
@@ -115,10 +115,10 @@
       </xsl:when>
       <xsl:otherwise>
         <li><a href="http://savannah.nongnu.org/download/construo/{@file}">
-            <xsl:value-of select="@file"/></a>
+          <xsl:value-of select="@file"/></a>
           -
           <xsl:apply-templates/>
-          
+
         </li>
       </xsl:otherwise>
     </xsl:choose>
@@ -131,7 +131,7 @@
       </ul>
     </div>
   </xsl:template>
-  
+
   <xsl:template match="screenshots/item">
     <li><a href="images/{.}.png"><img src="images/{.}_small.png"/></a></li>
   </xsl:template>
