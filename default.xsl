@@ -139,7 +139,7 @@
   <xsl:template match="copyright">
     <div id="footer">
       <p>
-        Copyright (c) 2001 <A HREF="http://pingus.seul.org/~grumbel/">Ingo Ruhnke</A> <A HREF="mailto:grumbel@gmx.de?subject=[Construo]">&lt;grumbel@gmx.de&gt;</A><BR/>
+        Copyright (c) 2001 <A HREF="http://pingus.seul.org/~grumbel/">Ingo Ruhnke</A> <A HREF="mailto:grumbel@gmail.com?subject=[Construo]">&lt;grumbel@gmail.com&gt;</A><BR/>
         Last update: 2010-05-30
       </p>
     </div>
